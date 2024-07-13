@@ -1,0 +1,244 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar-nav{
+    text-align: right;
+  }
+  .navbar .navbar-nav .nav-link {
+      color: #000000;
+      font-size: 1.1em;
+      padding-right: 1em;
+  }
+  .navbar .navbar-nav .nav-link:hover{
+      color: #808080;
+  }
+  .nav-item{
+    font-family: "PT Serif", serif;
+
+  }
+  .carousel-caption{
+    padding: 20px;
+    border-radius: 10px;
+    bottom: 195px;
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+    
+
+
+  .carousel-caption h1 {
+    font-size: 4.5em;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+
+.carousel-caption p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.carousel-caption.btn {
+    background: #4069AB;
+    color: #ffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.header {
+    background: url('https://i.pinimg.com/564x/97/6a/d9/976ad9c3fae69a5f7944a934c59c20e7.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgb(228, 0, 0);
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #4773c37a;
+    z-index: 1;
+}
+
+.our-story, .our-mission, .our-vision {
+    padding: 40px;
+    color: white;
+    border-radius: 5px;
+}
+
+.our-mission {
+    background-color: #000;
+}
+
+.underline {
+    display: inline-block;
+    position: relative;
+}
+.underline::after {
+    content: '';
+    position: absolute;
+    left: 14px;
+    bottom: -8px;
+    height: 2px;
+    width: 92%;
+    background-color: #7e95c7;
+}
+
+.services-section .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services-box {
+    width: 30%;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.services-box i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.services {
+    padding: 40px 0;
+    text-align: center;
+}
+.services h2 {
+    margin-bottom: 20px;
+    color: #153e93;
+}
+.services p {
+    max-width: 600px;
+    margin: 0 auto 40px;
+}
+.services .service-item {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: box-shadow 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.service-item i {
+    margin-right: 8px; 
+
+        border: 3px solid #153e93;
+        border-radius: 60px;
+        padding: 9px;
+        font-size: 40px;
+    
+}
+.services .service-item:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.services .service-item h5 {
+    margin-top: 10px;
+}
+.stats {
+    background-color: #4069AB;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.stats .stat-item {
+    padding: 20px;
+}
+.stats .stat-item h3 {
+    margin-bottom: 10px;
+}
+
+
+.stats i {
+    margin-right: 8px;
+    border: 3px solid #fcfdff;
+    border-radius: 60px;
+    padding: 9px;
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+
+.portfolio-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio-item {
+    width: 30%;
+    margin-bottom: 0px;
+}
+
+.portfolio-item img {
+    width: 100%;
+}
+
+.footer {
+    background-color: #202529;
+    color: white;
+    padding: 40px 0;
+}
+.footer h5 {
+    color: #f0f0f0;
+    margin-bottom: 20px;
+}
+.footer p {
+    color: #a9a9a9;
+}
+.footer .social-icons a {
+    color: #a9a9a9;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+.footer .social-icons a:hover {
+    color: #ffffff;
+}
+.footer .btn-subscribe {
+    background-color: #f0f0f0;
+    color: #000;
+    border: none;
+}
+.footer .btn-subscribe:hover {
+    background-color: #e0e0e0;
+}
+.footer .form-control {
+    border: none;
+    border-radius: 0;
+}
+.footer .form-control:focus {
+    box-shadow: none;
+}
+    
+
+footer {
+    background-color: var(--primary-color);
+  }
+
